@@ -6,7 +6,7 @@ import re
 from . import util
 
 # 注册插件
-@register(name="URLMasker", description="Mask url to bypass ", version="0.1", author="Antlt")
+@register(name="URLMasker", description="Mask url to bypass", version="0.1", author="Antlt")
 class URLMaskerPlugin(Plugin):
 
     # 插件加载时触发
